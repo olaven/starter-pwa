@@ -31,5 +31,9 @@
     "style-loader": "^0.13.1",
     "webpack": "^3.10.0",
     "workbox-webpack-plugin": "^2.1.0"
+  }, 
+  "dependencies": {
+    "react":"16.3.2", 
+    "react-dom":"16.3.2"
   }
 }
