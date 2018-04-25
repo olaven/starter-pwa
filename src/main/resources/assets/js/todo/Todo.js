@@ -43,11 +43,19 @@ class Todo extends Component{
     }
 
     render(){
-        return <div>
+        return <div style={styles}>
             <Input addItem={this.addItem.bind(this)}/>
             {this.renderItems()}
         </div>
     }
+}
+
+const styles = {
+    "backgroundColor":"navy", 
+    "color":"lightgrey", 
+    "fontSize":"1.5em", 
+    "padding":"2vw", 
+    "marginTop":"1vh"
 }
 
 export default Todo; 

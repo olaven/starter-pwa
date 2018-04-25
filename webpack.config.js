@@ -27,8 +27,8 @@ module.exports = {
 
     resolve: {
         extensions: ['.js', '.less']
-    },
-
+    }, 
+    
     module: {
         rules: [
             {
