@@ -13,7 +13,7 @@ class Todo extends Component{
     componentDidMount(){
         this.setState({
             items : [
-                "hi"
+                "This is a todo-item!"
             ]
         })
 
