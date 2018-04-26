@@ -28,7 +28,7 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.less']
     }, 
-    
+        
     module: {
         rules: [
             {
@@ -55,6 +55,5 @@ module.exports = {
             swSrc: path.join(templatesPath, 'workbox-sw.js'),
             swDest: path.join(buildTemplatesPath, 'sw.js')
         })
-    ]
+    ]};
 
-};
